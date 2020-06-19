@@ -23,11 +23,13 @@ module.exports = {
   ],
   "rules": {
     "prettier/prettier": "error",
-		"arrow-parens": ["error", "as-needed"],
+    "arrow-parens": ["error", "as-needed"],
+    "react/prefer-stateless-function": "off",
     "react/jsx-filename-extension": [
       'warn',
       { extensions: [".jsx", ".js"] }
     ],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "no-console": ["error", { allow: ["tron"] }],
   }
 };
