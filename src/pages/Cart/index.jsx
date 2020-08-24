@@ -46,11 +46,11 @@ function Cart({ cart, removeFromCart, updateAmountRequest, total }) {
               <td>
                 <div>
                   <button type="button" onClick={() => decrement(product)}>
-                    <MdRemoveCircleOutline size={20} color="#7159c1" />
+                    <MdRemoveCircleOutline size={20} color="#FF500F" />
                   </button>
                   <input type="number" readOnly value={product.amount} />
                   <button type="button" onClick={() => increment(product)}>
-                    <MdAddCircleOutline size={20} color="#7159c1" />
+                    <MdAddCircleOutline size={20} color="#FF500F" />
                   </button>
                 </div>
               </td>
@@ -62,7 +62,7 @@ function Cart({ cart, removeFromCart, updateAmountRequest, total }) {
                   type="button"
                   onClick={() => removeFromCart(product.id)}
                 >
-                  <MdDelete size={20} color="#7159c1" />
+                  <MdDelete size={20} color="#FF500F" />
                 </button>
               </td>
             </tr>
