@@ -25,6 +25,14 @@
   <img src="./.github/logo.png" />
 </h3>
 
+<h3 align="center">
+  <img src="./.github/logo1.png" />
+</h3>
+
+<h3 align="center">
+  <img src="./.github/logo2.png" />
+</h3>
+
 <br />
 
 <p align="center">
