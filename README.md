@@ -14,6 +14,13 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="#pencil-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#wrench-ferramentas-utilizadas">Ferramentas utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrowdown-como-utilizar">Baixe o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pagefacingup-licença">Licença</a>
+</p>
+
 <h3 align="center">
   <img src="./.github/logo.png" />
 </h3>
@@ -45,8 +52,39 @@ Essa é uma aplicação que foi desenvolvida no Bootcamp GoStack da Rocketseat, 
 - [Axios](https://github.com/axios/axios)
 - [Json-Server](https://www.npmjs.com/package/json-server)
 
+## :arrow_down: Como utilizar
+
+**Obs**: é necessário ter o `git` instalado em sua maquina.
+
+```bash
+# Clone o projeto
+$ git clone https://github.com/heliton1988/rocketshoes.git
+
+# Acesse a pasta do projeto
+$ cd rocketshoes
+
+# Instale as dependências
+$ yarn / npm install
+
+# Rode o front-end da aplicação
+$ yarn start / npm run start
+```
+
+para rodar localmente a API desenvolvida usando `Json-Server`, siga os seguinte passos abaixo;
+
+- Dentro da pasta `/rocketshoes` acesse a pasta `/service`
+- Acesse o arquivo `api.js` e faça o seguinte;
+
+```javascript
+// troque a baseURL para localhost como no exemplo abaixo
+
+const api = axios.create({
+  baseURL: 'http://localhost:3000',
+});
+```
+
 ## :page_facing_up: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/rocketseat-education/bootcamp-gostack-desafio-07/blob/master/LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/heliton1988/rocketshoes/blob/master/LICENSE) para mais detalhes.
 
 Feito com 💙 by [Héliton Oliveira](https://www.linkedin.com/in/helitonoliveira/) 👋 !!!
