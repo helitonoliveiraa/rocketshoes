@@ -1,7 +1,7 @@
 <h1 align="center">Rocketshoes</h1>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/heliton1988/rocketshoes?color=%23FF500F">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/helitonoliveiraa/rocketshoes?color=%23FF500F">
 
   <a href="https://www.linkedin.com/in/helitonoliveira/">
     <img alt="Made by Héliton Oliveira" src="https://img.shields.io/badge/made%20by-Héliton Oliveira-%23FF500F">
@@ -9,8 +9,8 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%23FF500F">
 
-  <a href="https://github.com/heliton1988/rocketshoes/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/heliton1988/rocketshoes?style=social">
+  <a href="https://github.com/helitonoliveiraa/rocketshoes/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/helitonoliveiraa/rocketshoes?style=social">
   </a>
 </p>
 
